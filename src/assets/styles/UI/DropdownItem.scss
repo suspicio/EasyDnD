@@ -1,0 +1,25 @@
+.dropdown-item {
+  margin: 4px;
+  display: flex;
+
+  &__text {
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  &__icon {
+    margin-right: 18px;
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+  }
+}

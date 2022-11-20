@@ -1,0 +1,124 @@
+@import "./src/assets/styles/app";
+
+.header {
+  &-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    min-height: 190px;
+    width: 100%;
+    background: $col1;
+  }
+
+  &-icon {
+    margin-left: 25px;
+    position: relative;
+    width: 412px;
+    height: 156px;
+
+    &__text {
+      font-family: 'MedievalSharp';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 60px;
+      line-height: 68px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      background: $linear2;
+      position: absolute;
+      width: 283px;
+      height: 80px;
+      left: 131px;
+      top: 0;
+      @include text-linear-background;
+    }
+
+    &__img {
+      position: absolute;
+      width: 132px;
+      height: 412px;
+      left: 0;
+      top: 24px;
+    }
+  }
+
+  &-nav {
+    display: flex;
+    margin-left: 19px;
+    margin-right: 193px;
+
+    &__item {
+      margin: 0 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-icon {
+        transform: translate(0, 3px);
+      }
+
+      &-text {
+        font-family: 'Pirata One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 41px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: $col5;
+        margin-left: 5px;
+      }
+
+      &-dropdown {
+        display: none;
+        opacity: 0;
+        position: absolute;
+      }
+
+      & .active .header-nav__item-dropdown {
+        display: block;
+        opacity: 1;
+        transition-duration: 1s;
+        transition: ease-in-out;
+      }
+    }
+  }
+
+  &-singIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+
+    &__text {
+      font-family: 'Pirata One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 41px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: $col5;
+      margin-left: 6px;
+    }
+
+    &__icon {
+
+    }
+
+
+  }
+
+  &-disabled {
+    display: none;
+  }
+
+  &-classes {
+    display: block;
+    position: absolute;
+  }
+}
