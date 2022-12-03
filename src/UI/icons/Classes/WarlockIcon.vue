@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/icons/Warlock.png" alt="Warlock-icon"/>
+  <img style="border-radius: 100%" src="@/assets/icons/classes/Warlock.png" alt="Warlock-icon"/>
 </template>
 
 <script>

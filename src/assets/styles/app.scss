@@ -15,26 +15,11 @@ body {
   height: 100%;
 }
 
-$col1: #040C0E;
-$col2: #132226;
-$col3: #525B56;
-$col4: #BE9063;
-$col5: #A4978E;
-$col6: #041A2F;
-$col7: #F2E0C8;
-$col8: #A68C67;
-
-$linear1: linear-gradient(180deg, #040C0E 0%, rgba(19, 34, 38, 0.8) 100%);
-$linear2: linear-gradient(180deg, #525B56 0%, #BE9063 100%);
-$linear3: linear-gradient(180deg, #A4978E 0%, #C2C2C2 48.44%, #BE9063 100%);
-$linear4: linear-gradient(180deg, #F2E0C8 0%, #BE9063 100%);
-$linear5: linear-gradient(180deg, #3D6772 0%, #103A44 100%);
-
-@mixin text-linear-background {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+@font-face {
+  font-family: UnifrakturCook;
+  src: url(UnifrakturCook.ttf);
+}

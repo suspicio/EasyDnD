@@ -1,6 +1,8 @@
 <template>
-  <div class="header-dropdown">
-    <slot />
+  <div>
+    <div class="header-dropdown" >
+      <slot />
+    </div>
   </div>
 </template>
 

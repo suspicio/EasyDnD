@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/icons/Sorcerer.png" alt="Sorcerer-icon"/>
+  <img style="border-radius: 100%" src="@/assets/icons/classes/Sorcerer.png" alt="Sorcerer-icon"/>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/icons/Rogue.png" alt="Rogue-icon"/>
+  <img style="border-radius: 100%" src="@/assets/icons/classes/Rogue.png" alt="Rogue-icon"/>
 </template>
 
 <script>

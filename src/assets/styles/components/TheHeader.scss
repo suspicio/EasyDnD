@@ -1,4 +1,4 @@
-@import "./src/assets/styles/app";
+@import "./src/assets/styles/constants";
 
 .header {
   &-block {
@@ -52,11 +52,13 @@
     &__item {
       margin: 0 10px;
       display: flex;
+      position: relative;
       justify-content: center;
       align-items: center;
 
       &-icon {
         transform: translate(0, 3px);
+        transition: ease-in-out .3s;
       }
 
       &-text {
@@ -70,19 +72,39 @@
         text-align: center;
         color: $col5;
         margin-left: 5px;
+        cursor: pointer;
       }
 
       &-dropdown {
-        display: none;
+        pointer-events: none;
         opacity: 0;
+        top: 0;
+        left: 0;
         position: absolute;
+        transition: opacity 1s ease-in-out;
+        transform: translate(10px, 50px);
+
+        &.drop-left {
+          transform: translate(-90%, 50px);
+        }
       }
 
-      & .active .header-nav__item-dropdown {
-        display: block;
-        opacity: 1;
-        transition-duration: 1s;
-        transition: ease-in-out;
+      &.active {
+        & .header-nav__item-dropdown {
+          pointer-events: all;
+          opacity: 1;
+          top: 0;
+          left: 0;
+          transform: translate(10px, 50px);
+
+          &.drop-left {
+            transform: translate(-90%, 50px);
+          }
+        }
+
+        & .header-nav__item-icon {
+          transform: translate(0, 3px) rotate(180deg);
+        }
       }
     }
   }

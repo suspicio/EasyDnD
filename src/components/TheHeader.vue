@@ -20,35 +20,35 @@
         <IconManager class="header-nav__item-icon" />
         <div class="header-nav__item-text">Races</div>
         <HeaderDropdown class="header-nav__item-dropdown" id="RacesDropdown">
-          <ContentManager content="ContentClasses" />
+          <ContentManager content="ContentRaces" />
         </HeaderDropdown>
       </div>
       <div class="header-nav__item" id="Spells">
         <IconManager class="header-nav__item-icon" />
         <div class="header-nav__item-text">Spells</div>
         <HeaderDropdown class="header-nav__item-dropdown" id="SpellsDropdown">
-          <ContentManager content="ContentClasses" />
+          <ContentManager content="ContentSpells" />
         </HeaderDropdown>
       </div>
       <div class="header-nav__item" id="Beasts">
         <IconManager class="header-nav__item-icon" />
         <div class="header-nav__item-text">Beasts</div>
-        <HeaderDropdown class="header-nav__item-dropdown" id="BeastsDropdown">
-          <ContentManager content="ContentClasses" />
+        <HeaderDropdown class="header-nav__item-dropdown drop-left" id="BeastsDropdown">
+          <ContentManager content="ContentBeasts" />
         </HeaderDropdown>
       </div>
       <div class="header-nav__item" id="Artifacts">
         <IconManager class="header-nav__item-icon" />
         <div class="header-nav__item-text">Artifacts</div>
-        <HeaderDropdown class="header-nav__item-dropdown" id="ArtifactsDropdown">
-          <ContentManager content="ContentClasses" />
+        <HeaderDropdown class="header-nav__item-dropdown drop-left" id="ArtifactsDropdown">
+          <ContentManager content="ContentArtifacts" />
         </HeaderDropdown>
       </div>
       <div class="header-nav__item" id="Guides">
         <IconManager class="header-nav__item-icon" />
         <div class="header-nav__item-text">Guides</div>
-        <HeaderDropdown class="header-nav__item-dropdown" id="GuidesDropdown">
-          <ContentManager content="ContentClasses" />
+        <HeaderDropdown class="header-nav__item-dropdown drop-left" id="GuidesDropdown">
+          <ContentManager content="ContentGuides" />
         </HeaderDropdown>
       </div>
     </nav>
@@ -71,13 +71,29 @@ export default {
     IconManager,
     HeaderDropdown,
   },
-  created() {
-    const listOfIds = ['', '', '', '', '', '']
+  mounted() {
+    const listOfIds = ['Classes', 'Races', 'Spells', 'Beasts', 'Artifacts', 'Guides'];
+    const activated = [false, false, false, false, false, false]
 
-    for (const id in listOfIds) {
-      document.getElementById('#' + id).addEventListener('mouseenter', () => {})
-      document.getElementById('#' + id).addEventListener('mouseleave', () => {})
-    }
+    listOfIds.forEach((elem, key) => {
+      document.querySelector('#' + elem).addEventListener('mouseenter', (event) => {
+        event.preventDefault()
+        activated.forEach((elem2, key2) => {
+          document.querySelector('#' + listOfIds[key2]).classList.remove('active');
+          return false
+        })
+        activated[key] = true
+        document.querySelector('#' + elem).classList.add('active');
+      })
+      document.querySelector('#' + elem).addEventListener('mouseleave', (event) => {
+        event.preventDefault()
+        activated[key] = false
+        setTimeout(() => {
+          if (!activated[key])
+          document.querySelector('#' + elem).classList.remove('active');
+        }, 200)
+      })
+    })
   },
   data() {
     return {

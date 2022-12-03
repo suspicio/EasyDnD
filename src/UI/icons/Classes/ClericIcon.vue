@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/icons/Cleric.png" alt="Cleric-icon"/>
+  <img style="border-radius: 100%" src="@/assets/icons/classes/Cleric.png" alt="Cleric-icon"/>
 </template>
 
 <script>

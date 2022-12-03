@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/icons/Druid.png" alt="Druid-icon"/>
+  <img style="border-radius: 100%" src="@/assets/icons/classes/Druid.png" alt="Druid-icon"/>
 </template>
 
 <script>

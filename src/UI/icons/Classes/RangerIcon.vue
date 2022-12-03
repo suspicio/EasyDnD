@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/icons/Ranger.png" alt="Ranger-icon"/>
+  <img style="border-radius: 100%" src="@/assets/icons/classes/Ranger.png" alt="Ranger-icon"/>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/icons/Fighter.png" alt="Fighter-icon"/>
+  <img style="border-radius: 100%" src="@/assets/icons/classes/Fighter.png" alt="Fighter-icon"/>
 </template>
 
 <script>

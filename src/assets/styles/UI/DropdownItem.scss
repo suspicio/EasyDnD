@@ -1,3 +1,5 @@
+@import "./src/assets/styles/constants";
+
 .dropdown-item {
   margin: 4px;
   display: flex;
@@ -8,6 +10,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
+    white-space: nowrap;
 
     display: flex;
     align-items: center;
@@ -20,6 +23,18 @@
     margin-right: 18px;
     height: 55px;
     width: 55px;
+    display: flex;
     border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      max-height: 55px;
+      max-width: 55px;
+    }
+
+    & svg path {
+      fill: $col8;
+    }
   }
 }

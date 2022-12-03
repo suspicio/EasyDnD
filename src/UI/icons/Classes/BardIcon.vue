@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/icons/Bard.png" alt="Bard-icon"/>
+  <img style="border-radius: 100%" src="@/assets/icons/classes/Bard.png" alt="Bard-icon"/>
 </template>
 
 <script>

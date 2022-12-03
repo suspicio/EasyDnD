@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/icons/Artificer.png" alt="Artificer-icon"/>
+  <img style="border-radius: 100%" src="@/assets/icons/classes/Artificer.png" alt="Artificer-icon"/>
 </template>
 
 <script>

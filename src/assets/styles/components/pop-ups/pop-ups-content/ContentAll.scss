@@ -1,8 +1,8 @@
 .content-all {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 31px 20px;
+  align-items: flex-start;
+  padding: 31px 20px;
 
   &__column {
     margin-right: 85px;

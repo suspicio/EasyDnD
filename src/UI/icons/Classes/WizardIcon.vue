@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/icons/Wizard.png" alt="Wizard-icon"/>
+  <img style="border-radius: 100%" src="@/assets/icons/classes/Wizard.png" alt="Wizard-icon"/>
 </template>
 
 <script>
