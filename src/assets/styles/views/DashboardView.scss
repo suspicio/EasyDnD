@@ -1,0 +1,18 @@
+.dashboard-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 100px;
+  width: 100%;
+  height: fit-content;
+
+  & .main-item {
+    &:nth-child(1) .main-item__text{
+      transform: translate(-40%, -50%);
+    }
+
+    &:nth-child(3) .main-item__text{
+      transform: translate(-60%, -30%);
+    }
+  }
+}

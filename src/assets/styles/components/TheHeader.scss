@@ -4,6 +4,8 @@
   &-block {
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
     align-items: center;
     height: 190px;
     min-height: 190px;
@@ -16,6 +18,7 @@
     position: relative;
     width: 412px;
     height: 156px;
+    cursor: pointer;
 
     &__text {
       font-family: 'MedievalSharp';
@@ -32,15 +35,23 @@
       height: 80px;
       left: 131px;
       top: 0;
+      cursor: pointer;
       @include text-linear-background;
     }
 
     &__img {
       position: absolute;
-      width: 132px;
-      height: 412px;
       left: 0;
       top: 24px;
+      cursor: pointer;
+      
+      & svg {
+        cursor: pointer;
+
+        & path {
+          cursor: pointer;
+        }
+      }
     }
   }
 

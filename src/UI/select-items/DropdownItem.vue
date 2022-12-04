@@ -1,8 +1,8 @@
 <template>
-  <div class="dropdown-item">
-    <div class="dropdown-item__icon"><IconManager :icon="icon"/></div>
-    <div class="dropdown-item__text">{{text}}</div>
-  </div>
+  <a :href="'/' + text" class="dropdown-item">
+    <span class="dropdown-item__icon"><IconManager :icon="icon"/></span>
+    <span class="dropdown-item__text">{{text}}</span>
+  </a>
 </template>
 
 <script>

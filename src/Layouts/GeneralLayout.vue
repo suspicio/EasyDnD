@@ -1,7 +1,9 @@
 <template>
-  <div class="gl-wrapper">
+  <div>
     <TheHeader />
+    <div class="gl-wrapper">
       <slot/>
+    </div>
     <TheFooter />
   </div>
 </template>

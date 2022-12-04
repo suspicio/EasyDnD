@@ -10,6 +10,9 @@ export default {
     AlternativeArrowIcon: () => import("@/UI/icons/General/AlternativeArrowIcon"),
     ArrowIcon: () => import("@/UI/icons/General/ArrowIcon"),
     SwordIcon: () => import("@/UI/icons/General/SwordIcon"),
+    CreateCharacterIcon: () => import("@/UI/icons/General/CreateCharacterIcon"),
+    CreateTableIcon: () => import("@/UI/icons/General/CreateTableIcon"),
+    JoinTableIcon: () => import("@/UI/icons/General/JoinTableIcon"),
 
     //Social
     FacebookIcon: () => import("@/UI/icons/Social/FacebookIcon"),

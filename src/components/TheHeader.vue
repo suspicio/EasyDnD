@@ -1,13 +1,13 @@
 <template>
   <header class="header-block">
-    <div class="header-icon">
-      <div class="header-icon__text">
+    <a href="/" class="header-icon">
+      <span class="header-icon__text">
         EasyD&D
-      </div>
-      <div class="header-icon__img">
+      </span>
+      <span class="header-icon__img">
         <IconManager icon="SwordIcon" />
-      </div>
-    </div>
+      </span>
+    </a>
     <nav class="header-nav">
       <div class="header-nav__item" id="Classes">
         <IconManager class="header-nav__item-icon"/>
