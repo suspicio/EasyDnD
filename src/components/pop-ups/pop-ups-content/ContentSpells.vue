@@ -1,18 +1,18 @@
 <template>
   <div class="content-all">
     <div class="content-all__column">
-      <DropdownItem text="Abjuration" icon="AbjurationIcon" />
-      <DropdownItem text="Conjuration" icon="ConjurationIcon" />
-      <DropdownItem text="Deviation" icon="DeviationIcon" />
+      <DropdownItem link="spells" text="Abjuration" icon="AbjurationIcon" />
+      <DropdownItem link="spells" text="Conjuration" icon="ConjurationIcon" />
+      <DropdownItem link="spells" text="Deviation" icon="DeviationIcon" />
     </div>
     <div class="content-all__column">
-      <DropdownItem text="Enchantment" icon="EnchantmentIcon" />
-      <DropdownItem text="Evocation" icon="EvocationIcon" />
-      <DropdownItem text="Illusion" icon="IllusionIcon" />
+      <DropdownItem link="spells" text="Enchantment" icon="EnchantmentIcon" />
+      <DropdownItem link="spells" text="Evocation" icon="EvocationIcon" />
+      <DropdownItem link="spells" text="Illusion" icon="IllusionIcon" />
     </div>
     <div class="content-all__column">
-      <DropdownItem text="Necromancy" icon="NecromancyIcon" />
-      <DropdownItem text="Transmutation" icon="TransmutationIcon" />
+      <DropdownItem link="spells" text="Necromancy" icon="NecromancyIcon" />
+      <DropdownItem link="spells" text="Transmutation" icon="TransmutationIcon" />
     </div>
   </div>
 </template>

@@ -1,19 +1,19 @@
 <template>
   <div class="content-all">
     <div class="content-all__column">
-      <DropdownItem text="Dragonborn" icon="DragonbornIcon" />
-      <DropdownItem text="Dwarf" icon="DwarfIcon" />
-      <DropdownItem text="Gnome" icon="GnomeIcon" />
+      <DropdownItem link="races" text="Dragonborn" icon="DragonbornIcon" />
+      <DropdownItem link="races" text="Dwarf" icon="DwarfIcon" />
+      <DropdownItem link="races" text="Gnome" icon="GnomeIcon" />
     </div>
     <div class="content-all__column">
-      <DropdownItem text="Elf" icon="ElfIcon" />
-      <DropdownItem text="Half-Elf" icon="HalfElfIcon" />
-      <DropdownItem text="Halfling" icon="HalflingIcon" />
+      <DropdownItem link="races" text="Elf" icon="ElfIcon" />
+      <DropdownItem link="races" text="Half-Elf" icon="HalfElfIcon" />
+      <DropdownItem link="races" text="Halfling" icon="HalflingIcon" />
     </div>
     <div class="content-all__column">
-      <DropdownItem text="Half-Orc" icon="HalfOrcIcon" />
-      <DropdownItem text="Human" icon="HumanIcon" />
-      <DropdownItem text="Tiefling" icon="TieflingIcon" />
+      <DropdownItem link="races" text="Half-Orc" icon="HalfOrcIcon" />
+      <DropdownItem link="races" text="Human" icon="HumanIcon" />
+      <DropdownItem link="races" text="Tiefling" icon="TieflingIcon" />
     </div>
   </div>
 </template>

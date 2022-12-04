@@ -1,23 +1,23 @@
 <template>
   <div class="content-all">
     <div class="content-all__column">
-      <DropdownItem text="Barbarian" icon="BarbarianIcon" />
-      <DropdownItem text="Bard" icon="BardIcon" />
-      <DropdownItem text="Cleric" icon="ClericIcon" />
-      <DropdownItem text="Druid" icon="DruidIcon" />
-      <DropdownItem text="Fighter" icon="FighterIcon" />
+      <DropdownItem link="classes" text="Barbarian" icon="BarbarianIcon" />
+      <DropdownItem link="classes" text="Bard" icon="BardIcon" />
+      <DropdownItem link="classes" text="Cleric" icon="ClericIcon" />
+      <DropdownItem link="classes" text="Druid" icon="DruidIcon" />
+      <DropdownItem link="classes" text="Fighter" icon="FighterIcon" />
     </div>
     <div class="content-all__column">
-      <DropdownItem text="Monk" icon="MonkIcon" />
-      <DropdownItem text="Paladin" icon="PaladinIcon" />
-      <DropdownItem text="Ranger" icon="RangerIcon" />
-      <DropdownItem text="Rogue" icon="RogueIcon" />
-      <DropdownItem text="Sorcerer" icon="SorcererIcon" />
+      <DropdownItem link="classes" text="Monk" icon="MonkIcon" />
+      <DropdownItem link="classes" text="Paladin" icon="PaladinIcon" />
+      <DropdownItem link="classes" text="Ranger" icon="RangerIcon" />
+      <DropdownItem link="classes" text="Rogue" icon="RogueIcon" />
+      <DropdownItem link="classes" text="Sorcerer" icon="SorcererIcon" />
     </div>
     <div class="content-all__column">
-      <DropdownItem text="Warlock" icon="WarlockIcon" />
-      <DropdownItem text="Wizard" icon="WizardIcon" />
-      <DropdownItem text="Artificer" icon="ArtificerIcon" />
+      <DropdownItem link="classes" text="Warlock" icon="WarlockIcon" />
+      <DropdownItem link="classes" text="Wizard" icon="WizardIcon" />
+      <DropdownItem link="classes" text="Artificer" icon="ArtificerIcon" />
     </div>
   </div>
 </template>
