@@ -1,5 +1,5 @@
 <template>
-  <div class="header-block">
+  <header class="header-block">
     <div class="header-icon">
       <div class="header-icon__text">
         EasyD&D
@@ -56,7 +56,7 @@
       <IconManager icon="ArrowIcon" class="header-singIn__icon" />
       <div class="header-singIn__text">SignIn</div>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>

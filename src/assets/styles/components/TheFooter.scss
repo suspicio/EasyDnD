@@ -1,0 +1,70 @@
+@import "./src/assets/styles/constants";
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  & img {
+    position: absolute;
+    bottom: 99px;
+    z-index: 0;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $linear4;
+  height: 100px;
+  z-index: 1;
+  padding-bottom: 30px;
+
+  &-left {
+    margin-left: 25px;
+  }
+
+  &-middle {
+    margin-bottom: 17px;
+  }
+
+  &-right {
+    margin-right: 25px;
+  }
+
+  &-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  &-text {
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+  }
+
+  &-header {
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+  }
+}

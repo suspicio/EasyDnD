@@ -6,9 +6,18 @@
 export default {
   name: "IconManager",
   components: {
-    AlternativeArrowIcon: () => import("@/UI/icons/AlternativeArrowIcon"),
-    ArrowIcon: () => import("@/UI/icons/ArrowIcon"),
-    SwordIcon: () => import("@/UI/icons/SwordIcon"),
+    //General
+    AlternativeArrowIcon: () => import("@/UI/icons/General/AlternativeArrowIcon"),
+    ArrowIcon: () => import("@/UI/icons/General/ArrowIcon"),
+    SwordIcon: () => import("@/UI/icons/General/SwordIcon"),
+
+    //Social
+    FacebookIcon: () => import("@/UI/icons/Social/FacebookIcon"),
+    InstagramIcon: () => import("@/UI/icons/Social/InstagramIcon"),
+    LinkIcon: () => import("@/UI/icons/Social/LinkIcon"),
+    TwitterIcon: () => import("@/UI/icons/Social/TwitterIcon"),
+
+    //Classes
     ArtificerIcon: () => import('@/UI/icons/Classes/ArtificerIcon'),
     BarbarianIcon: () => import('@/UI/icons/Classes/BarbarianIcon'),
     BardIcon: () => import('@/UI/icons/Classes/BardIcon'),
@@ -22,6 +31,8 @@ export default {
     SorcererIcon: () => import('@/UI/icons/Classes/SorcererIcon'),
     WarlockIcon: () => import('@/UI/icons/Classes/WarlockIcon'),
     WizardIcon: () => import('@/UI/icons/Classes/WizardIcon'),
+
+    //Races
     DragonbornIcon: () => import('@/UI/icons/Races/DragonbornIcon'),
     DwarfIcon: () => import('@/UI/icons/Races/DwarfIcon'),
     ElfIcon: () => import('@/UI/icons/Races/ElfIcon'),
@@ -31,6 +42,8 @@ export default {
     HalfOrcIcon: () => import('@/UI/icons/Races/HalfOrcIcon'),
     HumanIcon: () => import('@/UI/icons/Races/HumanIcon'),
     TieflingIcon: () => import('@/UI/icons/Races/TieflingIcon'),
+
+    //Spells classes
     AbjurationIcon: () => import('@/UI/icons/Spells/AbjurationIcon'),
     ConjurationIcon: () => import('@/UI/icons/Spells/ConjurationIcon'),
     DeviationIcon: () => import('@/UI/icons/Spells/DeviationIcon'),
@@ -39,6 +52,21 @@ export default {
     IllusionIcon: () => import('@/UI/icons/Spells/IllusionIcon'),
     NecromancyIcon: () => import('@/UI/icons/Spells/NecromancyIcon'),
     TransmutationIcon: () => import('@/UI/icons/Spells/TransmutationIcon'),
+
+    //Beasts
+    AberrationIcon: () => import('@/UI/icons/Beasts/AberrationIcon'),
+    BeastsIcon: () => import('@/UI/icons/Beasts/BeastsIcon'),
+    CelestialsIcon: () => import('@/UI/icons/Beasts/CelestialsIcon'),
+    ConstructsIcon: () => import('@/UI/icons/Beasts/ConstructsIcon'),
+    DragonsIcon: () => import('@/UI/icons/Beasts/DragonsIcon'),
+    ElementalsIcon: () => import('@/UI/icons/Beasts/ElementalsIcon'),
+    FeyIcon: () => import('@/UI/icons/Beasts/FeyIcon'),
+    FiendsIcon: () => import('@/UI/icons/Beasts/FiendsIcon'),
+    GiantsIcon: () => import('@/UI/icons/Beasts/GiantsIcon'),
+    HumanoidsIcon: () => import('@/UI/icons/Beasts/HumanoidsIcon'),
+    OozesIcon: () => import('@/UI/icons/Beasts/OozesIcon'),
+    PlantsIcon: () => import('@/UI/icons/Beasts/PlantsIcon'),
+    UndeadIcon: () => import('@/UI/icons/Beasts/UndeadIcon'),
   },
 
   props: {

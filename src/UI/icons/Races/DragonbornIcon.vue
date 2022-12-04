@@ -7,14 +7,10 @@
 </template>
 
 <script>
-import EmblemIcon from "@/UI/icons/EmblemIcon";
+import EmblemIcon from "@/UI/icons/General/EmblemIcon";
 
 export default {
   name: "DragonbornIcon",
   components: {EmblemIcon}
 }
 </script>
-
-<style scoped>
-
-</style>

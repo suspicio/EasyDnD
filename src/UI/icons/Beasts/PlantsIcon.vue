@@ -1,7 +1,7 @@
 <template>
   <EmblemIcon>
     <div class="emblem-icon__text">
-      Hu
+      P
     </div>
   </EmblemIcon>
 </template>
@@ -10,7 +10,7 @@
 import EmblemIcon from "@/UI/icons/General/EmblemIcon";
 
 export default {
-  name: "HumanIcon",
+  name: "PlantsIcon",
   components: {EmblemIcon}
 }
 </script>
