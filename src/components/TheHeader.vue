@@ -37,11 +37,11 @@
           <ContentManager content="ContentBeasts" />
         </HeaderDropdown>
       </div>
-      <div class="header-nav__item" id="Artifacts">
+      <div class="header-nav__item" id="Equipments">
         <IconManager class="header-nav__item-icon" />
-        <div class="header-nav__item-text">Artifacts</div>
-        <HeaderDropdown class="header-nav__item-dropdown drop-left" id="ArtifactsDropdown">
-          <ContentManager content="ContentArtifacts" />
+        <div class="header-nav__item-text">Equipments</div>
+        <HeaderDropdown class="header-nav__item-dropdown drop-left" id="EquipmentDropdown">
+          <ContentManager content="ContentEquipment" />
         </HeaderDropdown>
       </div>
       <div class="header-nav__item" id="Guides">
@@ -72,7 +72,7 @@ export default {
     HeaderDropdown,
   },
   mounted() {
-    const listOfIds = ['Classes', 'Races', 'Spells', 'Beasts', 'Artifacts', 'Guides'];
+    const listOfIds = ['Classes', 'Races', 'Spells', 'Beasts', 'Equipments', 'Guides'];
     const activated = [false, false, false, false, false, false]
 
     listOfIds.forEach((elem, key) => {

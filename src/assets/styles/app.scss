@@ -6,6 +6,23 @@
   cursor: default;
 }
 
+*::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+*::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+*::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: linear-gradient(180deg, #3D6772 0%, #103A44 100%);
+}
+*::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #040C0E 0%, #3a3a3a 100%);
+}
+
 body {
   display: flex;
   flex-direction: column;

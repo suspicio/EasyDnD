@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="general-layout">
     <TheHeader />
     <div class="gl-wrapper">
       <slot/>

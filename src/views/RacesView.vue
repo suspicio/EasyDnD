@@ -1,5 +1,5 @@
 <template>
-  <InitiatorComponent :contentType="classType" :content="classContent"/>
+  <InitiatorComponent :contentType="racesType" :content="racesContent"/>
 </template>
 
 <script>
@@ -7,28 +7,28 @@ import InitiatorComponent from "@/UI/parser-json-components/InitiatorComponent";
 import {mapActions} from "vuex";
 
 export default {
-  name: "ClassesView",
+  name: "RacesView",
   components: {InitiatorComponent},
   props: {
-    classType: {
+    racesType: {
       type: String,
       default: ''
     }
   },
   data() {
     return {
-      classContent: null
+      racesContent: null
     }
   },
   created() {
-    this.getClass(this.classType).then(
+    this.getRace(this.racesType).then(
         (callback) => {
-          this.classContent = callback
+          this.racesContent = callback
         }
     )
   },
   methods: {
-    ...mapActions(['getClass']),
+    ...mapActions(['getRace']),
   }
 }
 </script>

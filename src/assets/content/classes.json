@@ -102,10 +102,7 @@
         "header": "Equipment"
       },
       {
-        "text": "You start with the following equipment, in addition to the equipment"
-      },
-      {
-        "text": "granted by your background:"
+        "text": "You start with the following equipment, in addition to the equipment granted by your background:"
       },
       {
         "list": "- (*a*) a greataxe or (*b*) any martial melee weapon"
@@ -118,6 +115,120 @@
       },
       {
         "header": "The Barbarian"
+      },
+      {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Features": [
+            "Rage, Unarmored Defense",
+            "Reckless Attack, Danger Sense",
+            "Primal Path",
+            "Ability Score Improvement",
+            "Extra Attack, Fast Movement",
+            "Path feature",
+            "Feral Instinct",
+            "Ability Score Improvement",
+            "Brutal Critical (1 die)",
+            "Path feature",
+            "Relentless",
+            "Ability Score Improvement",
+            "Brutal Critical (2 dice)",
+            "Path feature",
+            "Persistent Rage",
+            "Ability Score Improvement",
+            "Brutal Critical (3 dice)",
+            "Indomitable Might",
+            "Ability Score Improvement",
+            "Primal Champion"
+          ],
+          "Rages": [
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "6",
+            "6",
+            "6",
+            "Unlimited"
+          ],
+          "Rage Damage": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+4"
+          ]
+        }
       },
       {
         "smallerHeader": "Rage"
@@ -240,7 +351,7 @@
         "smallerHeader": "Path of the Berserker"
       },
       {
-        "text": "For some barbarians, rage is a means to an end— that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being."
+        "text": "For some barbarians, rage is a means to an endâ€” that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being."
       },
       {
         "header": "Frenzy"
@@ -387,6 +498,318 @@
         "header": "The Bard"
       },
       {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficieny Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Features": [
+            "Spellcasting, Bardic Inspiration (d6)",
+            "Jack of All Trades, Song of Rest (d6)",
+            "Bard College, Expertise",
+            "Ability Score Improvement",
+            "Bardic Inspiration (d8), Font of Inspiration",
+            "Countercharm, Bard College Feature",
+            "-",
+            "Ability Score Improvement",
+            "Song of Rest (d8)",
+            "Bardic Inspiration (d10), Expertise, Magical Secrets",
+            "-",
+            "Ability Score Improvement",
+            "Song of Rest (d10)",
+            "Magical Secrets, Bard College Feature",
+            "Bardic Inspiration (d12)",
+            "Ability Score Improvement",
+            "Song of Rest (d12)",
+            "Magical Secrets",
+            "Ability Score Improvement",
+            "Superior Inspiration"
+          ],
+          "Spells Known": [
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "Cantrips Known": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "14",
+            "15",
+            "15",
+            "16",
+            "18",
+            "19",
+            "19",
+            "20",
+            "22",
+            "22",
+            "22"
+          ],
+          "1st": [
+            "2",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "2nd": [
+            "-",
+            "-",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "3rd": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "4th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "5th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3"
+          ],
+          "6th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "2"
+          ],
+          "7th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2"
+          ],
+          "8th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "9th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Spellcasting"
       },
       {
@@ -474,7 +897,7 @@
         "header": "Spellcasting Focus"
       },
       {
-        "text": "You can use a musical instrument (see chapter 5, 'Equip-ment') as a spellcasting focus for your bard spells."
+        "text": "You can use a musical instrument (see chapter 5, â€œEquip-mentâ€) as a spellcasting focus for your bard spells."
       },
       {
         "smallerHeader": "Bardic Inspiration"
@@ -722,15 +1145,299 @@
             "special": "Proficiency Cantrips"
           },
           {
-            "text": "Ì¶"
-          },
-          {
             "special": "Spell Slots per Spell Level"
-          },
-          {
-            "text": "¶"
           }
         ]
+      },
+      {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Features": [
+            "Spellcasting, Divine Domain",
+            "Channel Divinity (1/rest), Divine Domain Feature",
+            "-",
+            "Ability Score Improvement",
+            "Destroy Undead (CR 1/2)",
+            "Channel Divinity (2/rest), Divine Domain Feature",
+            "-",
+            "Ability Score Improvement, Destroy Undead (CR 1), Divine Domain Feature",
+            "-",
+            "Divine Intervention",
+            "Destroy Undead (CR 2)",
+            "Ability Score Improvement",
+            "-",
+            "Destroy Undead (CR 3)",
+            "-",
+            "Ability Score Improvement",
+            "Destroy Undead (CR 4), Divine Domain Feature",
+            "Channel Divinity (3/rest)",
+            "Ability Score Improvement",
+            "Divine Intervention improvement"
+          ],
+          "Cantrips Known": [
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+          ],
+          "1st": [
+            "2",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "2nd": [
+            "-",
+            "-",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "3rd": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "4th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "5th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3"
+          ],
+          "6th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "2"
+          ],
+          "7th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2"
+          ],
+          "8th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "9th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        }
       },
       {
         "smallerHeader": "Spellcasting"
@@ -808,7 +1515,7 @@
         "header": "Spellcasting Focus"
       },
       {
-        "text": "You can use a holy symbol (see chapter 5, 'Equipment') as a spellcasting focus for your cleric spells."
+        "text": "You can use a holy symbol (see chapter 5, â€œEquipmentâ€) as a spellcasting focus for your cleric spells."
       },
       {
         "smallerHeader": "Divine Domain"
@@ -820,7 +1527,7 @@
         "header": "Domain Spells"
       },
       {
-        "text": "Each domain has a list of spells—its domain spells— that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day."
+        "text": "Each domain has a list of spellsâ€”its domain spellsâ€” that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day."
       },
       {
         "text": "If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you."
@@ -868,6 +1575,24 @@
         "header": "Destroy Undead"
       },
       {
+        "table": {
+          "Cleric Level": [
+            "5th",
+            "8th",
+            "11th",
+            "14th",
+            "17th"
+          ],
+          "Destroys Undead of CR...": [
+            "1/2 or lower",
+            "1 or lower",
+            "2 or lower",
+            "3 or lower",
+            "4 or lower"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Divine Intervention"
       },
       {
@@ -886,10 +1611,28 @@
         "smallerHeader": "Life Domain"
       },
       {
-        "text": "The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei)."
+        "text": "The Life domain focuses on the vibrant positive energyâ€”one of the fundamental forces of the universeâ€”that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei)."
       },
       {
         "header": "Life Domain Spells"
+      },
+      {
+        "table": {
+          "Cleric Level": [
+            "1st",
+            "3rd",
+            "5th",
+            "7th",
+            "9th"
+          ],
+          "Spells": [
+            "bless, cure wounds",
+            "lesser restoration, spiritual weapon",
+            "beacon of hope, revivify",
+            "death ward, guardian of faith",
+            "mass cure wounds, raise dead"
+          ]
+        }
       },
       {
         "header": "Bonus Proficiency"
@@ -1048,6 +1791,296 @@
         "header": "The Druid"
       },
       {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Features": [
+            "Druidic, Spellcasting",
+            "Wild Shape, Druid Circle",
+            "-",
+            "Wild Shape Improvement, Ability Score Improvement",
+            "-",
+            "Druid Circle feature",
+            "-",
+            "Wild Shape Improvement, Ability Score Improvement",
+            "-",
+            "Druid Circle feature",
+            "-",
+            "Ability Score Improvement",
+            "-",
+            "Druid Circle feature",
+            "-",
+            "Ability Score Improvement",
+            "-",
+            "Timeless Body, Beast Spells",
+            "Ability Score Improvement",
+            "Archdruid"
+          ],
+          "Cantrips Known": [
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "1st": [
+            "2",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "2nd": [
+            "-",
+            "-",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "3rd": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "4th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "5th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3"
+          ],
+          "6th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "2"
+          ],
+          "7th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2"
+          ],
+          "8th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "9th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Druidic"
       },
       {
@@ -1110,7 +2143,7 @@
         "header": "Spellcasting Focus"
       },
       {
-        "text": "You can use a druidic focus (see chapter 5, 'Equip- ment') as a spellcasting focus for your druid spells."
+        "text": "You can use a druidic focus (see chapter 5, â€œEquip- mentâ€) as a spellcasting focus for your druid spells."
       },
       {
         "smallerHeader": "Wild Shape"
@@ -1139,6 +2172,30 @@
       },
       {
         "text": "You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+      },
+      {
+        "table": {
+          "Max.": [
+            "2nd",
+            "4th",
+            "8th"
+          ],
+          "Level": [
+            "1/4",
+            "1/2",
+            "1"
+          ],
+          "CR Limitations": [
+            "No flying or swimming speed",
+            "No flying speed",
+            "—"
+          ],
+          "Example": [
+            "Wolf",
+            "Crocodile",
+            "Giant eagle"
+          ]
+        }
       },
       {
         "text": "You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die."
@@ -1222,7 +2279,7 @@
         "header": "Circle Spells"
       },
       {
-        "text": "Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land—arctic, coast, desert, forest, grassland, mountain, or swamp—and consult the associated list of spells."
+        "text": "Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land-arctic, coast, desert, forest, grassland, mountain, or swampâ€”and consult the associated list of spells."
       },
       {
         "text": "Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you."
@@ -1231,22 +2288,134 @@
         "smallerHeader": "Arctic"
       },
       {
+        "table": {
+          "Druid Level": [
+            "3rd",
+            "5th",
+            "7th",
+            "9th"
+          ],
+          "Circle Spells": [
+            "hold person, spike growth",
+            "sleet storm, slow",
+            "freedom of movement, ice storm",
+            "commune with nature, cone of cold"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Coast"
+      },
+      {
+        "table": {
+          "Druid Level": [
+            "3rd",
+            "5th",
+            "7th",
+            "9th"
+          ],
+          "Circle Spells": [
+            "mirror image, misty step",
+            "water breathing, water walk",
+            "control water, freedom of movement",
+            "conjure elemental, scrying"
+          ]
+        }
       },
       {
         "smallerHeader": "Desert"
       },
       {
+        "table": {
+          "Druid Level": [
+            "3rd",
+            "5th",
+            "7th",
+            "9th"
+          ],
+          "Circle Spells": [
+            "blur, silence",
+            "create food and water, protection from energy",
+            "blight, hallucinatory terrain",
+            "insect plague, wall of stone"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Forest"
+      },
+      {
+        "table": {
+          "Druid Level": [
+            "3rd",
+            "5th",
+            "7th",
+            "9th"
+          ],
+          "Circle Spells": [
+            "barkskin, spider climb",
+            "call lightning, plant growth",
+            "divination, freedom of movement",
+            "commune with nature, tree stride"
+          ]
+        }
       },
       {
         "smallerHeader": "Grassland"
       },
       {
+        "table": {
+          "Druid Level": [
+            "3rd",
+            "5th",
+            "7th",
+            "9th"
+          ],
+          "Circle Spells": [
+            "invisibility, pass without trace",
+            "daylight, haste",
+            "divination, freedom of movement",
+            "dream, insect plague"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Mountain"
       },
       {
+        "table": {
+          "Druid Level": [
+            "3rd",
+            "5th",
+            "7th",
+            "9th"
+          ],
+          "Circle Spells": [
+            "spider climb, spike growth",
+            "lightning bolt, meld into stone",
+            "stone shape, stoneskin",
+            "passwall, wall of stone"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Swamp"
+      },
+      {
+        "table": {
+          "Druid Level": [
+            "3rd",
+            "5th",
+            "7th",
+            "9th"
+          ],
+          "Circle Spells": [
+            "acid arrow, darkness",
+            "water walk, stinking cloud",
+            "freedom of movement, locate creature",
+            "insect plague, scrying"
+          ]
+        }
       },
       {
         "header": "Land's Stride"
@@ -1421,6 +2590,76 @@
         "header": "The Fighter"
       },
       {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Features": [
+            "Fighting Style, Second Wind",
+            "Action Surge (one use)",
+            "Martial Archetype",
+            "Ability Score Improvement",
+            "Extra Attack",
+            "Ability Score Improvement",
+            "Martial Archetype Feature",
+            "Ability Score Improvement",
+            "Indomitable (one use)",
+            "Martial Archetype Feature",
+            "Extra Attack (2)",
+            "Ability Score Improvement",
+            "Indomitable (two uses)",
+            "Ability Score Improvement",
+            "Martial Archetype Feature",
+            "Ability Score Improvement",
+            "Action Surge (two uses), Indomitable (three uses)",
+            "Martial Archetype Feature",
+            "Ability Score Improvement",
+            "Extra Attack (3)"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Fighting Style"
       },
       {
@@ -1544,7 +2783,7 @@
         "header": "Superior Critical"
       },
       {
-        "text": "Starting at 15th level, your weapon attacks score a critical hit on a roll of 18â€“20."
+        "text": "Starting at 15th level, your weapon attacks score a critical hit on a roll of 18–20."
       },
       {
         "header": "Survivor"
@@ -1668,6 +2907,142 @@
       },
       {
         "header": "The Monk"
+      },
+      {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Martial Arts": [
+            "1d4",
+            "1d4",
+            "1d4",
+            "1d4",
+            "1d6",
+            "1d6",
+            "1d6",
+            "1d6",
+            "1d6",
+            "1d6",
+            "1d8",
+            "1d8",
+            "1d8",
+            "1d8",
+            "1d8",
+            "1d8",
+            "1d10",
+            "1d10",
+            "1d10",
+            "1d10"
+          ],
+          "Ki Points": [
+            "—",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+          ],
+          "Unarmored Movement": [
+            "-",
+            "+10 ft.",
+            "+10 ft.",
+            "+10 ft.",
+            "+10 ft.",
+            "+15 ft.",
+            "+15 ft.",
+            "+15 ft.",
+            "+15 ft.",
+            "+20 ft.",
+            "+20 ft.",
+            "+20 ft.",
+            "+20 ft.",
+            "+25 ft.",
+            "+25 ft.",
+            "+25 ft.",
+            "+25 ft.",
+            "+30 ft.",
+            "+30 ft.",
+            "+30 ft."
+          ],
+          "Features": [
+            "Unarmored Defense, Martial Arts",
+            "Ki, Unarmored Movement",
+            "Monastic Tradition, Deflect Missiles",
+            "Ability Score Improvement, Slow Fall",
+            "Extra Attack, Stunning Strike",
+            "Ki-Empowered Strikes, Monastic Tradition Feature",
+            "Evasion, Stillness of Mind",
+            "Ability Score Improvement",
+            "Unarmored Movement improvement",
+            "Purity of Body",
+            "Monastic Tradition Feature",
+            "Ability Score Improvement",
+            "Tongue of the Sun and Moon",
+            "Diamond Soul",
+            "Timeless Body",
+            "Ability Score Improvement",
+            "Monastic Tradition Feature",
+            "Empty Body",
+            "Ability Score Improvement",
+            "Perfect Self"
+          ]
+        }
       },
       {
         "smallerHeader": "Unarmored Defense"
@@ -2043,6 +3418,186 @@
         "header": "The Paladin"
       },
       {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Features": [
+            "Divine Sense, Lay on Hands",
+            "Fighting Style, Spellcasting, Divine Smite",
+            "Divine Health, Sacred Oath",
+            "Ability Score Improvement",
+            "Extra Attack",
+            "Aura of Protection",
+            "Sacred Oath feature",
+            "Ability Score Improvement",
+            "-",
+            "Aura of Courage",
+            "Improved Divine Smite",
+            "Ability Score Improvement",
+            "-",
+            "Cleansing Touch",
+            "Sacred Oath feature",
+            "Ability Score Improvement",
+            "-",
+            "Aura improvements",
+            "Ability Score Improvement",
+            "Sacred Oath feature"
+          ],
+          "1st": [
+            "-",
+            "2",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "2nd": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "3rd": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "4th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "5th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "2",
+            "2"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Divine Sense"
       },
       {
@@ -2068,7 +3623,7 @@
         "smallerHeader": "Lay on Hands"
       },
       {
-        "text": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level Ã— 5."
+        "text": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level × 5."
       },
       {
         "text": "As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool."
@@ -2269,7 +3824,7 @@
         "smallerHeader": "Oath of Devotion"
       },
       {
-        "text": "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels—the perfect servants of good—as their ideals, and incorporate images of angelic wings into their helmets or coats of arms."
+        "text": "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angelsâ€”the perfect servants of goodâ€”as their ideals, and incorporate images of angelic wings into their helmets or coats of arms."
       },
       {
         "header": "Tenets of Devotion"
@@ -2335,6 +3890,24 @@
       },
       {
         "smallerHeader": "Oath of Devotion Spells"
+      },
+      {
+        "table": {
+          "Level": [
+            "3rd",
+            "5th",
+            "9th",
+            "13th",
+            "17th"
+          ],
+          "Paladin Spells": [
+            "protection from evil and good, sanctuary",
+            "lesser restoration, zone of truth",
+            "beacon of hope, dispel magic",
+            "freedom of movement, guardian of faith",
+            "commune, flame strike"
+          ]
+        }
       },
       {
         "header": "Channel Divinity"
@@ -2536,6 +4109,208 @@
       },
       {
         "header": "The Ranger"
+      },
+      {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Features": [
+            "Favored Enemy, Natural Explorer",
+            "Fighting Style, Spellcasting",
+            "Ranger Archetype, Primeval Awareness",
+            "Ability Score Improvement",
+            "Extra Attack",
+            "Favored Enemy and Natural Explorer improvements",
+            "Ranger Archetype feature",
+            "Ability Score Improvement, Land’s Stride",
+            "-",
+            "Natural Explorer improvement, Hide in Plain Sight",
+            "Ranger Archetype feature",
+            "Ability Score Improvement",
+            "-",
+            "Favored Enemy improvement, Vanish",
+            "Ranger Archetype feature",
+            "Ability Score Improvement",
+            "-",
+            "Feral Senses",
+            "Ability Score Improvement",
+            "Foe Slayer"
+          ],
+          "Spells Known": [
+            "-",
+            "2",
+            "3",
+            "3",
+            "4",
+            "4",
+            "5",
+            "5",
+            "6",
+            "6",
+            "7",
+            "7",
+            "8",
+            "8",
+            "9",
+            "9",
+            "10",
+            "10",
+            "11",
+            "11"
+          ],
+          "1st": [
+            "-",
+            "2",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "2nd": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "3rd": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "4th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "5th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "2",
+            "2"
+          ]
+        }
       },
       {
         "smallerHeader": "Favored Enemy"
@@ -3027,6 +4802,98 @@
         "header": "The Rogue"
       },
       {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Sneak Attack": [
+            "1d6",
+            "1d6",
+            "2d6",
+            "2d6",
+            "3d6",
+            "3d6",
+            "4d6",
+            "4d6",
+            "5d6",
+            "5d6",
+            "6d6",
+            "6d6",
+            "7d6",
+            "7d6",
+            "8d6",
+            "8d6",
+            "9d6",
+            "9d6",
+            "10d6",
+            "10d6"
+          ],
+          "Features": [
+            "Expertise, Sneak Attack, Thieves’ Cant",
+            "Cunning Action",
+            "Roguish Archetype",
+            "Ability Score Improvement",
+            "Uncanny Dodge",
+            "Expertise",
+            "Evasion",
+            "Ability Score Improvement",
+            "Roguish Archetype feature",
+            "Ability Score Improvement",
+            "Reliable Talent",
+            "Ability Score Improvement",
+            "Roguish Archetype Feature",
+            "Blindsense",
+            "Slippery Mind",
+            "Ability Score Improvement",
+            "Roguish Archetype Feature",
+            "Elusive",
+            "Ability Score Improvement",
+            "Stroke of Luck"
+          ]
+        }
+      },
+      {
         "specialText": [
           {
             "special": "Expertise"
@@ -3141,7 +5008,7 @@
         "header": "Roguish Archetypes"
       },
       {
-        "text": "Rogues have many features in common, including their emphasis on perfecting their skills, their precise and deadly approach to combat, and their increasingly quick reflexes. But different rogues steer those talents in varying directions, embodied by the rogue archetypes. Your choice of archetype is a reflection of your focus—not necessarily an indication of your chosen profession, but a description of your preferred techniques."
+        "text": "Rogues have many features in common, including their emphasis on perfecting their skills, their precise and deadly approach to combat, and their increasingly quick reflexes. But different rogues steer those talents in varying directions, embodied by the rogue archetypes. Your choice of archetype is a reflection of your focusâ€”not necessarily an indication of your chosen profession, but a description of your preferred techniques."
       },
       {
         "smallerHeader": "Thief"
@@ -3303,6 +5170,340 @@
         "header": "The Sorcerer"
       },
       {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Sorcery Points": [
+            "-",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+          ],
+          "Features": [
+            "Spellcasting, Sorcerous Origin",
+            "Font of Magic",
+            "Metamagic",
+            "Ability Score Improvement",
+            "-",
+            "Sorcerous Origin Feature",
+            "-",
+            "Ability Score Improvement",
+            "-",
+            "Metamagic",
+            "-",
+            "Ability Score Improvement",
+            "-",
+            "Sorcerous Origin Feature",
+            "-",
+            "Ability Score Improvement",
+            "Metamagic",
+            "Sorcerous Origin Feature",
+            "Ability Score Improvement",
+            "Sorcerous Restoration"
+          ],
+          "Cantrips Known": [
+            "4",
+            "4",
+            "4",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "Spells Known": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "12",
+            "13",
+            "13",
+            "14",
+            "14",
+            "15",
+            "15",
+            "15",
+            "15"
+          ],
+          "1st": [
+            "2",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "2nd": [
+            "-",
+            "-",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "3rd": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "4th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "5th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3"
+          ],
+          "6th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "2"
+          ],
+          "7th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2"
+          ],
+          "8th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "9th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Spellcasting"
       },
       {
@@ -3425,6 +5626,24 @@
       },
       {
         "smallerHeader": "Creating Spell Slots"
+      },
+      {
+        "table": {
+          "Spell Slot Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th"
+          ],
+          "Sorcery Point Cost": [
+            "2",
+            "3",
+            "5",
+            "6",
+            "7"
+          ]
+        }
       },
       {
         "specialText": [
@@ -3562,6 +5781,34 @@
       },
       {
         "smallerHeader": "Draconic Ancestry"
+      },
+      {
+        "table": {
+          "Dragon": [
+            "Black",
+            "Blue",
+            "Brass",
+            "Bronze",
+            "Copper",
+            "Gold",
+            "Green",
+            "Red",
+            "Silver",
+            "White"
+          ],
+          "Damage Type": [
+            "Acid",
+            "Lightning",
+            "Fire",
+            "Lightning",
+            "Acid",
+            "Fire",
+            "Poison",
+            "Fire",
+            "Cold",
+            "Cold"
+          ]
+        }
       },
       {
         "text": "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
@@ -3712,6 +5959,186 @@
       },
       {
         "header": "The Warlock"
+      },
+      {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Features": [
+            "Otherworldly Patron, Pact Magic",
+            "Eldritch Invocations",
+            "Pact Boon",
+            "Ability Score Improvement",
+            "-",
+            "Otherworldly Patron feature",
+            "-",
+            "Ability Score Improvement",
+            "-",
+            "Otherworldly Patron feature",
+            "Mystic Arcanum (6th level)",
+            "Ability Score Improvement",
+            "Mystic Arcanum (7th level)",
+            "Otherworldly Patron feature",
+            "Mystic Arcanum (8th level)",
+            "Ability Score Improvement",
+            "Mystic Arcanum (9th level)",
+            "-",
+            "Ability Score Improvement",
+            "Eldritch Master"
+          ],
+          "Cantrips Known": [
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "Spells Known": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "10",
+            "11",
+            "11",
+            "12",
+            "12",
+            "13",
+            "13",
+            "14",
+            "14",
+            "15",
+            "15"
+          ],
+          "Spell Slots": [
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "Slot Level": [
+            "1st",
+            "1st",
+            "2nd",
+            "2nd",
+            "3rd",
+            "3rd",
+            "4th",
+            "4th",
+            "5th",
+            "5th",
+            "5th",
+            "5th",
+            "5th",
+            "5th",
+            "5th",
+            "5th",
+            "5th",
+            "5th",
+            "5th",
+            "5th"
+          ],
+          "Invocations Known": [
+            "-",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "4",
+            "4",
+            "5",
+            "5",
+            "5",
+            "6",
+            "6",
+            "6",
+            "7",
+            "7",
+            "7",
+            "8",
+            "8",
+            "8"
+          ]
+        }
       },
       {
         "smallerHeader": "Otherworldly Patron"
@@ -4033,7 +6460,7 @@
             "special": "hold monster"
           },
           {
-            "text": "at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."
+            "text": "at willâ€”targeting a celestial, fiend, or elementalâ€”without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."
           }
         ]
       },
@@ -4298,10 +6725,10 @@
             "special": "Prerequisite:"
           },
           {
-            "text": "eldritch blast"
+            "text": "eldritch blas"
           },
           {
-            "special": "cantrip"
+            "special": "t cantrip"
           }
         ]
       },
@@ -4469,7 +6896,7 @@
         "header": "Otherworldly Patrons"
       },
       {
-        "text": "The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence—not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return."
+        "text": "The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existenceâ€”not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return."
       },
       {
         "text": "Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals."
@@ -4488,6 +6915,24 @@
       },
       {
         "smallerHeader": "Fiend Expanded Spells"
+      },
+      {
+        "table": {
+          "Spell Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th"
+          ],
+          "Spells": [
+            "burning hands, command",
+            "blindness/deafness, scorching ray",
+            "fireball, stinking cloud",
+            "fire shield, wall of fire",
+            "flame strike, hallow"
+          ]
+        }
       },
       {
         "header": "Dark One's Blessing"
@@ -4676,6 +7121,296 @@
         "header": "The Wizard"
       },
       {
+        "table": {
+          "Level": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th",
+            "11th",
+            "12th",
+            "13th",
+            "14th",
+            "15th",
+            "16th",
+            "17th",
+            "18th",
+            "19th",
+            "20th"
+          ],
+          "Proficiency Bonus": [
+            "+2",
+            "+2",
+            "+2",
+            "+2",
+            "+3",
+            "+3",
+            "+3",
+            "+3",
+            "+4",
+            "+4",
+            "+4",
+            "+4",
+            "+5",
+            "+5",
+            "+5",
+            "+5",
+            "+6",
+            "+6",
+            "+6",
+            "+6"
+          ],
+          "Features": [
+            "Spellcasting, Arcane Recovery",
+            "Arcane Tradition",
+            "-",
+            "Ability Score Improvement",
+            "-",
+            "Arcane Tradition Feature",
+            "-",
+            "Ability Score Improvement",
+            "-",
+            "Arcane Tradition Feature",
+            "-",
+            "Ability Score Improvement",
+            "-",
+            "Arcane Tradition Feature",
+            "-",
+            "Ability Score Improvement",
+            "-",
+            "Spell Mastery",
+            "Ability Score Improvement",
+            "Signature Spell"
+          ],
+          "Cantrips Known": [
+            "3",
+            "3",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+          ],
+          "1st": [
+            "2",
+            "3",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "2nd": [
+            "-",
+            "-",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "3rd": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "4th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "2",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "5th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "3"
+          ],
+          "6th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2",
+            "2"
+          ],
+          "7th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "2"
+          ],
+          "8th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "9th": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        }
+      },
+      {
         "smallerHeader": "Spellcasting"
       },
       {
@@ -4760,7 +7495,7 @@
         "header": "Learning Spells of 1st Level and Higher"
       },
       {
-        "text": "Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see the 'Your Spellbook' sidebar)."
+        "text": "Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook for free. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see the â€œYour Spellbookâ€ sidebar)."
       },
       {
         "smallerHeader": "Arcane Recovery"
@@ -4880,7 +7615,7 @@
             "special": "Replacing the Book."
           },
           {
-            "text": "You can copy a spell from your own spellbook into another book—for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell."
+            "text": "You can copy a spell from your own spellbook into another bookâ€”for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell."
           }
         ]
       },

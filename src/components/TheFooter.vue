@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <img style="width: 100%" alt="footer effect" src="@/assets/icons/footer.png" />
+    <img style="width: 100%; max-height: 93px;" alt="footer effect" src="@/assets/icons/footer.png" />
     <div class="footer">
       <div class="footer-left">
         <div class="footer-header">

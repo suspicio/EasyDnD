@@ -12,6 +12,7 @@ $linear2: linear-gradient(180deg, #525B56 0%, #BE9063 100%);
 $linear3: linear-gradient(180deg, #A4978E 0%, #C2C2C2 48.44%, #BE9063 100%);
 $linear4: linear-gradient(180deg, #F2E0C8 0%, #BE9063 100%);
 $linear5: linear-gradient(180deg, #3D6772 0%, #103A44 100%);
+$linear6: linear-gradient(180deg, #959595 0%, #ff7e00 100%);
 
 @mixin text-linear-background {
   -webkit-background-clip: text;

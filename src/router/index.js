@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import DashboardView from "@/views/DashboardView";
+import ClassesView from "@/views/ClassesView";
+import RacesView from "@/views/RacesView";
+import EquipmentView from "@/views/EquipmentView";
 
 Vue.use(VueRouter)
 
@@ -9,6 +12,24 @@ const routes = [
         path: '/',
         name: 'Dashboard',
         component: DashboardView
+    },
+    {
+        path: '/classes/:classType',
+        name: 'Classes',
+        component: ClassesView,
+        props: true
+    },
+    {
+        path: '/races/:racesType',
+        name: 'Races',
+        component: RacesView,
+        props: true
+    },
+    {
+        path: '/equipment/:equipmentType',
+        name: 'Equipment',
+        component: EquipmentView,
+        props: true
     }
 ]
 

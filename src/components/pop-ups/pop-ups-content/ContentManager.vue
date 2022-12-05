@@ -10,7 +10,7 @@ export default {
     ContentRaces: () => import('@/components/pop-ups/pop-ups-content/ContentRaces'),
     ContentSpells: () => import('@/components/pop-ups/pop-ups-content/ContentSpells'),
     ContentBeasts: () => import('@/components/pop-ups/pop-ups-content/ContentBeasts'),
-    ContentArtifacts: () => import('@/components/pop-ups/pop-ups-content/ContentArtifact'),
+    ContentEquipment: () => import('@/components/pop-ups/pop-ups-content/ContentEquipment'),
     ContentGuides: () => import('@/components/pop-ups/pop-ups-content/ContentGuides'),
   },
   props: {

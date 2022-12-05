@@ -1,8 +1,16 @@
 @import "./src/assets/styles/constants";
 
-.gl-wrapper {
-  height: calc(100vh - 190px);
+.general-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+}
+.gl-wrapper {
+  min-height: calc(100vh - 190px);
+  width: 100%;
+  margin-top: -1px;
   display: flex;
   position: relative;
   z-index: 0;

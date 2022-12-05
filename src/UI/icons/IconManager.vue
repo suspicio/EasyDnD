@@ -70,6 +70,17 @@ export default {
     OozesIcon: () => import('@/UI/icons/Beasts/OozesIcon'),
     PlantsIcon: () => import('@/UI/icons/Beasts/PlantsIcon'),
     UndeadIcon: () => import('@/UI/icons/Beasts/UndeadIcon'),
+
+    //Equipment
+    AdventuringGearIcon: () => import('@/UI/icons/Equipment/AdventuringGearIcon'),
+    ArmorIcon: () => import('@/UI/icons/Equipment/ArmorIcon'),
+    EquipmentIcon: () => import('@/UI/icons/Equipment/EquipmentIcon'),
+    ExpensesIcon: () => import('@/UI/icons/Equipment/ExpensesIcon'),
+    MountsVehiclesIcon: () => import('@/UI/icons/Equipment/MountsVehiclesIcon'),
+    SellingTreasureIcon: () => import('@/UI/icons/Equipment/SellingTreasureIcon'),
+    ToolsIcon: () => import('@/UI/icons/Equipment/ToolsIcon'),
+    TradeGoodsIcon: () => import('@/UI/icons/Equipment/TradeGoodsIcon'),
+    WeaponsIcon: () => import('@/UI/icons/Equipment/WeaponsIcon'),
   },
 
   props: {

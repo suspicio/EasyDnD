@@ -1,5 +1,5 @@
 <template>
-  <a :href="'/' + link + '?' + text" class="dropdown-item">
+  <a :href="'/' + link + '/' + text" class="dropdown-item">
     <span class="dropdown-item__icon"><IconManager :icon="icon"/></span>
     <span class="dropdown-item__text">{{text}}</span>
   </a>
