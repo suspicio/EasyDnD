@@ -9,6 +9,7 @@ import SingleSpellView from "@/views/SingleSpellView";
 import BeastsView from "@/views/BeastsView";
 import SingleBeastView from "@/views/SingleBeastView";
 import GuidesView from "@/views/GuidesView"
+import NotFoundView from "@/views/NotFoundView";
 
 Vue.use(VueRouter)
 
@@ -65,6 +66,11 @@ const routes = [
         name: 'Guides',
         component: GuidesView,
         props: true
+    },
+    {
+        path: '*',
+        name: 'NotFound',
+        component: NotFoundView,
     }
 ]
 

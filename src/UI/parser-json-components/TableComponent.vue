@@ -55,8 +55,8 @@ export default {
   }
 
   & thead th {
-    color: #c2c2c2;
-    background: #103A44;
+    color: #040c0e;
+    background: lavenderblush;;
   }
 }
 
