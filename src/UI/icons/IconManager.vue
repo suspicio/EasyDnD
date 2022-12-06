@@ -82,6 +82,19 @@ export default {
     ToolsIcon: () => import('@/UI/icons/Equipment/ToolsIcon'),
     TradeGoodsIcon: () => import('@/UI/icons/Equipment/TradeGoodsIcon'),
     WeaponsIcon: () => import('@/UI/icons/Equipment/WeaponsIcon'),
+
+    //Guides
+    AbilityScoresIcon: () => import('@/UI/icons/Guides/AbilityScoresIcon'),
+    AdventuringIcon: () => import('@/UI/icons/Guides/AdventuringIcon'),
+    CombatIcon: () => import('@/UI/icons/Guides/CombatIcon'),
+    DiseasesIcon: () => import('@/UI/icons/Guides/DiseasesIcon'),
+    FeatsIcon: () => import('@/UI/icons/Guides/FeatsIcon'),
+    GodsIcon: () => import('@/UI/icons/Guides/GodsIcon'),
+    MadnessIcon: () => import('@/UI/icons/Guides/MadnessIcon'),
+    ObjectsIcon: () => import('@/UI/icons/Guides/ObjectsIcon'),
+    PoisonsIcon: () => import('@/UI/icons/Guides/PoisonsIcon'),
+    SpellcastingIcon: () => import('@/UI/icons/Guides/SpellcastingIcon'),
+    TrapsIcon: () => import('@/UI/icons/Guides/TrapsIcon'),
   },
 
   props: {
