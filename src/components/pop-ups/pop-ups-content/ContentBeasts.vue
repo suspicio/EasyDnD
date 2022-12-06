@@ -2,21 +2,21 @@
   <div class="content-all">
     <div class="content-all__column">
       <DropdownItem link="beasts" text="Aberration" icon="AberrationIcon" />
-      <DropdownItem link="beasts" text="Beasts" icon="BeastsIcon" />
-      <DropdownItem link="beasts" text="Celestials" icon="CelestialsIcon" />
-      <DropdownItem link="beasts" text="Constructs" icon="ConstructsIcon" />
-      <DropdownItem link="beasts" text="Dragons" icon="DragonsIcon" />
+      <DropdownItem link="beasts" text="Beast" icon="BeastsIcon" />
+      <DropdownItem link="beasts" text="Celestial" icon="CelestialsIcon" />
+      <DropdownItem link="beasts" text="Construct" icon="ConstructsIcon" />
+      <DropdownItem link="beasts" text="Dragon" icon="DragonsIcon" />
     </div>
     <div class="content-all__column">
-      <DropdownItem link="beasts" text="Elementals" icon="ElementalsIcon" />
+      <DropdownItem link="beasts" text="Elemental" icon="ElementalsIcon" />
       <DropdownItem link="beasts" text="Fey" icon="FeyIcon" />
-      <DropdownItem link="beasts" text="Fiends" icon="FiendsIcon" />
-      <DropdownItem link="beasts" text="Giants" icon="GiantsIcon" />
-      <DropdownItem link="beasts" text="Humanoids" icon="HumanoidsIcon" />
+      <DropdownItem link="beasts" text="Fiend" icon="FiendsIcon" />
+      <DropdownItem link="beasts" text="Giant" icon="GiantsIcon" />
+      <DropdownItem link="beasts" text="Humanoid" icon="HumanoidsIcon" />
     </div>
     <div class="content-all__column">
-      <DropdownItem link="beasts" text="Oozes" icon="OozesIcon" />
-      <DropdownItem link="beasts" text="Plants" icon="PlantsIcon" />
+      <DropdownItem link="beasts" text="Ooze" icon="OozesIcon" />
+      <DropdownItem link="beasts" text="Plant" icon="PlantsIcon" />
       <DropdownItem link="beasts" text="Undead" icon="UndeadIcon" />
     </div>
   </div>

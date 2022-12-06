@@ -6,6 +6,8 @@ import RacesView from "@/views/RacesView";
 import EquipmentView from "@/views/EquipmentView";
 import SpellsView from "@/views/SpellsView";
 import SingleSpellView from "@/views/SingleSpellView";
+import BeastsView from "@/views/BeastsView";
+import SingleBeastView from "@/views/SingleBeastView";
 
 Vue.use(VueRouter)
 
@@ -44,7 +46,19 @@ const routes = [
         name: 'Spell',
         component: SingleSpellView,
         props: true
-    }
+    },
+    {
+        path: '/beasts/:beastsType',
+        name: 'Beasts',
+        component: BeastsView,
+        props: true
+    },
+    {
+        path: '/beast/:beastName',
+        name: 'Beast',
+        component: SingleBeastView,
+        props: true
+    },
 ]
 
 const router = new VueRouter({

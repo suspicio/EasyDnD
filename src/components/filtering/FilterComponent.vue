@@ -264,13 +264,13 @@ export default {
   }
 
   &-input {
-    width: 200px;
+    width: 250px;
     height: 30px;
     padding: 10px;
   }
 
   &-select {
-    width: 200px;
+    width: 250px;
   }
 
   &-buttons {
