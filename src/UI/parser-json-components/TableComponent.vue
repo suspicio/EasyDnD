@@ -8,7 +8,7 @@
       </thead>
       <tr v-for="(elem, ht) in content['table'][Object.keys(content['table'])[0]]" :key="'subheader-'+ht+elem">
         <td v-for="(header, key) in Object.keys(content['table'])" :key="'content-'+ht+'-'+key+header" class="table-content">
-          {{content['table'][header][ht]}}
+          {{content['table'][header][ht].toString()}}
         </td>
       </tr>
     </table>
@@ -42,7 +42,6 @@ export default {
   border-collapse: collapse;
   width: 100%;
   max-width: 100%;
-  white-space: nowrap;
   background-color: #c8d0d3;
 
   & td, .fl-table th {
