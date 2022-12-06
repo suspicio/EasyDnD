@@ -1,8 +1,8 @@
 <template>
   <div class="dashboard-wrapper">
-      <MainItem text="Create<br/>Character" icon="CreateCharacterIcon"/>
-      <MainItem text="Create Table" icon="CreateTableIcon"/>
-      <MainItem text="Join Table" icon="JoinTableIcon"/>
+      <MainItem link="create-char" text="Create<br/>Character" icon="CreateCharacterIcon"/>
+      <MainItem link="create-map" text="Create Table" icon="CreateTableIcon"/>
+      <MainItem link="join" text="Join Table" icon="JoinTableIcon"/>
   </div>
 </template>
 

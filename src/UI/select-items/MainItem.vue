@@ -1,8 +1,8 @@
 <template>
-  <div class="main-item">
-    <IconManager :icon="icon"/>
+  <router-link :to="link" class="main-item">
     <div class="main-item__text" v-html="text" />
-  </div>
+    <IconManager :icon="icon"/>
+  </router-link>
 </template>
 
 <script>
@@ -16,6 +16,10 @@ export default {
       default: ''
     },
     text: {
+      type: String,
+      default: ''
+    },
+    link: {
       type: String,
       default: ''
     }

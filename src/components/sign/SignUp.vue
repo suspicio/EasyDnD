@@ -343,7 +343,7 @@ export default {
   &-left3 {
     max-width: 75px;
     position: absolute;
-    right: 446px;
+    right: 690px;
     top: 686px;
     fill: #8dbd5c;
   }
@@ -352,7 +352,7 @@ export default {
     max-width: 75px;
     fill: #8dbd5c;
     position: absolute;
-    right: 920px;
+    right: 1150px;
     top: 686px;
     transform: rotateY(180deg);
   }

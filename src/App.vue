@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <GeneralLayout v-if="$route.meta !== 'inGame'">
+    <GeneralLayout v-if="!$route.meta?.['inGame']">
       <router-view />
     </GeneralLayout>
     <InGameLayout v-else>

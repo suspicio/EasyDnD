@@ -12,6 +12,9 @@ import GuidesView from "@/views/GuidesView"
 import NotFoundView from "@/views/NotFoundView";
 import SignView from "@/views/SignView";
 import MyProfile from "@/components/sign/MyProfile";
+import TableMap from "@/views/TableMap";
+import JoinTable from "@/views/JoinTable";
+import CreateTable from "@/views/CreateTable";
 
 Vue.use(VueRouter)
 
@@ -78,6 +81,23 @@ const routes = [
         path: '/profile',
         name: 'Profile',
         component: MyProfile,
+    },
+    {
+        path: '/map/:id',
+        name: 'Map',
+        component: TableMap,
+        props: true,
+        meta: { inGame: true }
+    },
+    {
+        path: '/create-map',
+        name: 'CreateMap',
+        component: CreateTable,
+    },
+    {
+        path: '/join',
+        name: 'JoinTable',
+        component: JoinTable,
     },
     {
         path: '*',
