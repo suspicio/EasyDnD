@@ -4,6 +4,8 @@ import DashboardView from "@/views/DashboardView";
 import ClassesView from "@/views/ClassesView";
 import RacesView from "@/views/RacesView";
 import EquipmentView from "@/views/EquipmentView";
+import SpellsView from "@/views/SpellsView";
+import SingleSpellView from "@/views/SingleSpellView";
 
 Vue.use(VueRouter)
 
@@ -29,6 +31,18 @@ const routes = [
         path: '/equipment/:equipmentType',
         name: 'Equipment',
         component: EquipmentView,
+        props: true
+    },
+    {
+        path: '/spells/:spellsType',
+        name: 'Spells',
+        component: SpellsView,
+        props: true
+    },
+    {
+        path: '/spell/:spellName',
+        name: 'Spell',
+        component: SingleSpellView,
         props: true
     }
 ]
