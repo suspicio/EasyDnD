@@ -54,7 +54,8 @@
     </nav>
     <div class="header-singIn">
       <IconManager icon="ArrowIcon" class="header-singIn__icon" />
-      <div class="header-singIn__text">SignIn</div>
+      <router-link v-if="!active" :key="'route' + active" to="/sign" class="header-singIn__text">SignIn</router-link>
+      <router-link v-else to="/profile" class="header-singIn__text">Profile</router-link>
     </div>
   </header>
 </template>
@@ -70,6 +71,18 @@ export default {
     ContentManager,
     IconManager,
     HeaderDropdown,
+  },
+  watch: {
+    active(newA, oldA) {
+      if (newA === oldA) {
+        console.log('banan')
+      }
+    }
+  },
+  computed: {
+    active() {
+      return localStorage.getItem('activeUser')
+    }
   },
   mounted() {
     const listOfIds = ['Classes', 'Races', 'Spells', 'Beasts', 'Equipments', 'Guides'];
@@ -97,7 +110,7 @@ export default {
   },
   data() {
     return {
-      currentActive: 'header-disabled'
+      currentActive: 'header-disabled',
     }
   },
 }

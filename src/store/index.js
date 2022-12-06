@@ -10,7 +10,7 @@ import router from "@/router";
 
 Vue.use(Vuex)
 
-export default new Vuex.Store({
+const store = new Vuex.Store({
     state: {
         classes,
         races,
@@ -18,26 +18,20 @@ export default new Vuex.Store({
         spells,
         beasts,
         guides,
+        user: {}
     },
 
     mutations: {
-        setClasses(state, newClasses) {
-            state.classes = newClasses
+        setUser(state, newUser) {
+            localStorage.setItem('activeUser', JSON.stringify(newUser))
+            state.user = newUser
         },
-
-        setRaces(state, newClasses) {
-            state.races = newClasses
-        },
-
-        setEquipment(state, newEquipment) {
-            state.equipment = newEquipment
-        }
     },
 
     actions: {
         getClass (state, data) {
             if (!state.state.classes?.[data])
-                router.push('/404') 
+                router.push('/404')
             return state.state.classes[data];
         },
 
@@ -86,8 +80,23 @@ export default new Vuex.Store({
                 router.push('/404')
             return state.state.guides[data];
         },
+
+        saveUser (state, data) {
+            state.state.user = data;
+            localStorage.setItem('activeUser', JSON.stringify(data))
+            localStorage.setItem(data.email, JSON.stringify(data));
+        },
+
+        getUser (state) {
+            if (localStorage.getItem('activeUser') === null)
+                return null
+            state.state.user = JSON.parse(localStorage.getItem('activeUser'));
+            return state.state.user;
+        }
     },
 
     getters: {
     }
 })
+
+export default store;

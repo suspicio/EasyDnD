@@ -10,6 +10,8 @@ import BeastsView from "@/views/BeastsView";
 import SingleBeastView from "@/views/SingleBeastView";
 import GuidesView from "@/views/GuidesView"
 import NotFoundView from "@/views/NotFoundView";
+import SignView from "@/views/SignView";
+import MyProfile from "@/components/sign/MyProfile";
 
 Vue.use(VueRouter)
 
@@ -66,6 +68,16 @@ const routes = [
         name: 'Guides',
         component: GuidesView,
         props: true
+    },
+    {
+        path: '/sign',
+        name: 'Sign',
+        component: SignView,
+    },
+    {
+        path: '/profile',
+        name: 'Profile',
+        component: MyProfile,
     },
     {
         path: '*',
