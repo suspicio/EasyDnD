@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import classes from '@/assets/content/classes.json'
 import races from '@/assets/content/races.json'
 import equipment from '@/assets/content/equipment.json'
+import spells from '@/assets/content/spells.json'
 
 Vue.use(Vuex)
 
@@ -11,6 +12,7 @@ export default new Vuex.Store({
         classes,
         races,
         equipment,
+        spells,
     },
 
     mutations: {
@@ -38,6 +40,16 @@ export default new Vuex.Store({
 
         getEquipment (state, data) {
             return state.state.equipment[data];
+        },
+
+        getSpells (state) {
+            return state.state.spells;
+        },
+
+        getSpell (state, data) {
+            return state.state.spells['content'].filter((elem) => {
+                return elem.name === data
+            });
         }
     },
 

@@ -40,6 +40,7 @@ export default {
 
 <style lang="scss">
 .initiator-component {
+  width: 100%;
   padding: 20px 20px 200px;
   margin: 50px 30px 10px;
   border: 5px solid #644827;

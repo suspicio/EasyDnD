@@ -13,6 +13,7 @@ export default {
     CreateCharacterIcon: () => import("@/UI/icons/General/CreateCharacterIcon"),
     CreateTableIcon: () => import("@/UI/icons/General/CreateTableIcon"),
     JoinTableIcon: () => import("@/UI/icons/General/JoinTableIcon"),
+    DragonIcon: () => import("@/UI/icons/General/DragonIcon"),
 
     //Social
     FacebookIcon: () => import("@/UI/icons/Social/FacebookIcon"),
