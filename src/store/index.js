@@ -5,6 +5,7 @@ import races from '@/assets/content/races.json'
 import equipment from '@/assets/content/equipment.json'
 import spells from '@/assets/content/spells.json'
 import beasts from '@/assets/content/beasteary.json'
+import guides from '@/assets/content/guides.json'
 
 Vue.use(Vuex)
 
@@ -15,6 +16,7 @@ export default new Vuex.Store({
         equipment,
         spells,
         beasts,
+        guides,
     },
 
     mutations: {
@@ -62,7 +64,11 @@ export default new Vuex.Store({
             return state.state.beasts.filter((elem) => {
                 return elem.name === data
             })[0];
-        }
+        },
+
+        getGuide (state, data) {
+            return state.state.guides[data];
+        },
     },
 
     getters: {

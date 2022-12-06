@@ -8,6 +8,7 @@ import SpellsView from "@/views/SpellsView";
 import SingleSpellView from "@/views/SingleSpellView";
 import BeastsView from "@/views/BeastsView";
 import SingleBeastView from "@/views/SingleBeastView";
+import GuidesView from "@/views/GuidesView"
 
 Vue.use(VueRouter)
 
@@ -59,6 +60,12 @@ const routes = [
         component: SingleBeastView,
         props: true
     },
+    {
+        path: '/guides/:guideType',
+        name: 'Guides',
+        component: GuidesView,
+        props: true
+    }
 ]
 
 const router = new VueRouter({
